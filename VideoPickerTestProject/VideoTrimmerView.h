@@ -30,7 +30,7 @@ typedef NSUInteger VideoTrimmerActionType;
 
 @protocol VideoTrimmerViewDelegate <NSObject>
 
-- (void)videoTrimmerViewSelectionChanged:(NSRange)newSelection;
+- (void)videoTrimmer:(VideoTrimmerView *)trimmer selectionChanged:(NSRange)newSelection;
 
 @end
 

@@ -18,6 +18,7 @@
 		2E3180A115012BF200A08F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3180A015012BF200A08F4E /* ViewController.m */; };
 		2E3180A915012E6200A08F4E /* VideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3180A815012E6200A08F4E /* VideoTrimmerView.m */; };
 		2E3180C11502BE5500A08F4E /* bg-drill-button-done.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */; };
+		2E8C2EC21513C6E3002BE6BC /* trimmer-control.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C2EC11513C6E3002BE6BC /* trimmer-control.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2E3180A715012E6200A08F4E /* VideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTrimmerView.h; sourceTree = "<group>"; };
 		2E3180A815012E6200A08F4E /* VideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTrimmerView.m; sourceTree = "<group>"; };
 		2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-drill-button-done.png"; sourceTree = "<group>"; };
+		2E8C2EC11513C6E3002BE6BC /* trimmer-control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trimmer-control.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				2E3180A715012E6200A08F4E /* VideoTrimmerView.h */,
 				2E3180A815012E6200A08F4E /* VideoTrimmerView.m */,
 				2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */,
+				2E8C2EC11513C6E3002BE6BC /* trimmer-control.png */,
 			);
 			path = VideoPickerTestProject;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				2E31809B15012BF200A08F4E /* MainStoryboard_iPhone.storyboard in Resources */,
 				2E31809E15012BF200A08F4E /* MainStoryboard_iPad.storyboard in Resources */,
 				2E3180C11502BE5500A08F4E /* bg-drill-button-done.png in Resources */,
+				2E8C2EC21513C6E3002BE6BC /* trimmer-control.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				2E3180A615012BF200A08F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
