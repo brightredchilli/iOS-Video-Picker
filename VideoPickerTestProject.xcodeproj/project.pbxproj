@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E31808815012BF200A08F4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31808715012BF200A08F4E /* UIKit.framework */; };
+		2E31808A15012BF200A08F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31808915012BF200A08F4E /* Foundation.framework */; };
+		2E31808C15012BF200A08F4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31808B15012BF200A08F4E /* CoreGraphics.framework */; };
+		2E31809215012BF200A08F4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E31809015012BF200A08F4E /* InfoPlist.strings */; };
+		2E31809415012BF200A08F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E31809315012BF200A08F4E /* main.m */; };
+		2E31809815012BF200A08F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E31809715012BF200A08F4E /* AppDelegate.m */; };
+		2E31809B15012BF200A08F4E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E31809915012BF200A08F4E /* MainStoryboard_iPhone.storyboard */; };
+		2E31809E15012BF200A08F4E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E31809C15012BF200A08F4E /* MainStoryboard_iPad.storyboard */; };
+		2E3180A115012BF200A08F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3180A015012BF200A08F4E /* ViewController.m */; };
+		2E3180A915012E6200A08F4E /* VideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3180A815012E6200A08F4E /* VideoTrimmerView.m */; };
+		2E3180C11502BE5500A08F4E /* bg-drill-button-done.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E31808315012BF200A08F4E /* VideoPickerTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPickerTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E31808715012BF200A08F4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E31808915012BF200A08F4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E31808B15012BF200A08F4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E31808F15012BF200A08F4E /* VideoPickerTestProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoPickerTestProject-Info.plist"; sourceTree = "<group>"; };
+		2E31809115012BF200A08F4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E31809315012BF200A08F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E31809515012BF200A08F4E /* VideoPickerTestProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPickerTestProject-Prefix.pch"; sourceTree = "<group>"; };
+		2E31809615012BF200A08F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E31809715012BF200A08F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E31809A15012BF200A08F4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2E31809D15012BF200A08F4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2E31809F15012BF200A08F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E3180A015012BF200A08F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E3180A715012E6200A08F4E /* VideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTrimmerView.h; sourceTree = "<group>"; };
+		2E3180A815012E6200A08F4E /* VideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTrimmerView.m; sourceTree = "<group>"; };
+		2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-drill-button-done.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E31808015012BF200A08F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E31808815012BF200A08F4E /* UIKit.framework in Frameworks */,
+				2E31808A15012BF200A08F4E /* Foundation.framework in Frameworks */,
+				2E31808C15012BF200A08F4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E31807815012BF100A08F4E = {
+			isa = PBXGroup;
+			children = (
+				2E31808D15012BF200A08F4E /* VideoPickerTestProject */,
+				2E31808615012BF200A08F4E /* Frameworks */,
+				2E31808415012BF200A08F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E31808415012BF200A08F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E31808315012BF200A08F4E /* VideoPickerTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E31808615012BF200A08F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E31808715012BF200A08F4E /* UIKit.framework */,
+				2E31808915012BF200A08F4E /* Foundation.framework */,
+				2E31808B15012BF200A08F4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E31808D15012BF200A08F4E /* VideoPickerTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				2E31809615012BF200A08F4E /* AppDelegate.h */,
+				2E31809715012BF200A08F4E /* AppDelegate.m */,
+				2E31809915012BF200A08F4E /* MainStoryboard_iPhone.storyboard */,
+				2E31809C15012BF200A08F4E /* MainStoryboard_iPad.storyboard */,
+				2E31809F15012BF200A08F4E /* ViewController.h */,
+				2E3180A015012BF200A08F4E /* ViewController.m */,
+				2E31808E15012BF200A08F4E /* Supporting Files */,
+				2E3180A715012E6200A08F4E /* VideoTrimmerView.h */,
+				2E3180A815012E6200A08F4E /* VideoTrimmerView.m */,
+				2E3180C01502BE5500A08F4E /* bg-drill-button-done.png */,
+			);
+			path = VideoPickerTestProject;
+			sourceTree = "<group>";
+		};
+		2E31808E15012BF200A08F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E31808F15012BF200A08F4E /* VideoPickerTestProject-Info.plist */,
+				2E31809015012BF200A08F4E /* InfoPlist.strings */,
+				2E31809315012BF200A08F4E /* main.m */,
+				2E31809515012BF200A08F4E /* VideoPickerTestProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E31808215012BF200A08F4E /* VideoPickerTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3180A415012BF200A08F4E /* Build configuration list for PBXNativeTarget "VideoPickerTestProject" */;
+			buildPhases = (
+				2E31807F15012BF200A08F4E /* Sources */,
+				2E31808015012BF200A08F4E /* Frameworks */,
+				2E31808115012BF200A08F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPickerTestProject;
+			productName = VideoPickerTestProject;
+			productReference = 2E31808315012BF200A08F4E /* VideoPickerTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E31807A15012BF100A08F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Burning Hollow Technologies";
+			};
+			buildConfigurationList = 2E31807D15012BF100A08F4E /* Build configuration list for PBXProject "VideoPickerTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E31807815012BF100A08F4E;
+			productRefGroup = 2E31808415012BF200A08F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E31808215012BF200A08F4E /* VideoPickerTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E31808115012BF200A08F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E31809215012BF200A08F4E /* InfoPlist.strings in Resources */,
+				2E31809B15012BF200A08F4E /* MainStoryboard_iPhone.storyboard in Resources */,
+				2E31809E15012BF200A08F4E /* MainStoryboard_iPad.storyboard in Resources */,
+				2E3180C11502BE5500A08F4E /* bg-drill-button-done.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E31807F15012BF200A08F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E31809415012BF200A08F4E /* main.m in Sources */,
+				2E31809815012BF200A08F4E /* AppDelegate.m in Sources */,
+				2E3180A115012BF200A08F4E /* ViewController.m in Sources */,
+				2E3180A915012E6200A08F4E /* VideoTrimmerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E31809015012BF200A08F4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E31809115012BF200A08F4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E31809915012BF200A08F4E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E31809A15012BF200A08F4E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2E31809C15012BF200A08F4E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E31809D15012BF200A08F4E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3180A215012BF200A08F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3180A315012BF200A08F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3180A515012BF200A08F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPickerTestProject/VideoPickerTestProject-Prefix.pch";
+				INFOPLIST_FILE = "VideoPickerTestProject/VideoPickerTestProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E3180A615012BF200A08F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPickerTestProject/VideoPickerTestProject-Prefix.pch";
+				INFOPLIST_FILE = "VideoPickerTestProject/VideoPickerTestProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E31807D15012BF100A08F4E /* Build configuration list for PBXProject "VideoPickerTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3180A215012BF200A08F4E /* Debug */,
+				2E3180A315012BF200A08F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3180A415012BF200A08F4E /* Build configuration list for PBXNativeTarget "VideoPickerTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3180A515012BF200A08F4E /* Debug */,
+				2E3180A615012BF200A08F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E31807A15012BF100A08F4E /* Project object */;
+}
